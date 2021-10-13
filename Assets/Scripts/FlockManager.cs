@@ -8,23 +8,23 @@ public class FlockManager : MonoBehaviour
     public GameObject fish;
     public int fishNum = 25;
     public GameObject[] fishArray;
-    public Vector3 flockLimit = new Vector3(500,500,500);
+    public Vector3 flockLimit = new Vector3(1000,500,1000);
     public float minSpeed = 50f;
     public float maxSpeed = 200f;
     [Range(1f,100f)]
-    public float neighbourDistance = 1f;
+    public float neighbourDistance = 10f;
     [Range(1f,5f)]
-    public float rotationSpeed = 1f;
+    public float rotationSpeed = 2f;
     public float distanceBetweenFish = 10f;
     public Vector3 goalPosition;
     public Vector3 spawn = new Vector3(100,100,100);
 
     private float nextActionTime = 0.0f;
-    private float period = 10f;
-    private Vector3 startCenter = new Vector3(500,-500,500);
+    private float period = 20f;
+    private Vector3 limit = new Vector3(250,250,250);
     void Start()
     {
-        startCenter = this.transform.position;
+        spawn = this.transform.position;
         fishArray = new GameObject[fishNum];
         for(int i = 0; i<fishNum; i++){
             Vector3 position = this.transform.position + new Vector3(
@@ -44,10 +44,12 @@ public class FlockManager : MonoBehaviour
         //goalPosition = new Vector3(-1000,-700,2500);
         if (Time.time > nextActionTime ) {
             nextActionTime += period;
-            goalPosition = new Vector3(
-                Random.Range(startCenter.x-spawn.x,startCenter.x+spawn.x),
-                Random.Range(startCenter.y-spawn.y,startCenter.y+spawn.y),
-                Random.Range(startCenter.z-spawn.z,startCenter.z+spawn.z));
+            goalPosition = this.transform.position + new Vector3(Random.Range(-limit.x, limit.x),
+                                                            Random.Range(-limit.y, limit.y),
+                                                            Random.Range(-limit.z, limit.z));
+            if (goalPosition.y > -45-limit.y/2) {
+                goalPosition.y = -45-limit.y/2;
+            }
             Debug.Log(goalPosition);
         } 
     }

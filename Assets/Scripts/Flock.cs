@@ -27,15 +27,15 @@ public class Flock : MonoBehaviour
 
             turning = true;
             direction = manager.transform.position - transform.position;
-        } else if (Physics.Raycast(transform.position, this.transform.TransformDirection(Vector3.forward), out hit,10f)) {
+        } else if (Physics.Raycast(transform.position, this.transform.TransformDirection(Vector3.forward), out hit,100f)) {
             turning = true;
-            Debug.DrawRay(this.transform.position, this.transform.TransformDirection(Vector3.forward) * hit.distance, Color.green,10f);
-            Debug.Log("drawray");
+            //Debug.DrawRay(this.transform.position, this.transform.TransformDirection(Vector3.forward) * hit.distance, Color.green,10f);
+            //Debug.Log("drawray");
             direction = Vector3.Reflect(this.transform.forward, hit.normal);
-        } else if(transform.position.y >= -45){
+        } else if(transform.position.y >= -60){
             turning = true;
             direction = manager.transform.position - transform.position;
-            Debug.Log("Trun around from surface");
+            //Debug.Log("Trun around from surface");
         }
 
         if(turning){
