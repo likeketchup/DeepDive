@@ -6,14 +6,14 @@ public class FlockManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject fish;
-    public int fishNum = 50;
+    public int fishNum = 25;
     public GameObject[] fishArray;
-    public Vector3 flockLimit = new Vector3(100,100,100);
-    public float minSpeed = 10f;
-    public float maxSpeed = 20f;
+    public Vector3 flockLimit = new Vector3(500,500,500);
+    public float minSpeed = 50f;
+    public float maxSpeed = 200f;
     [Range(1f,100f)]
-    public float neighbourDistance = 50f;
-    [Range(1f,10f)]
+    public float neighbourDistance = 1f;
+    [Range(1f,5f)]
     public float rotationSpeed = 1f;
     public float distanceBetweenFish = 10f;
     public Vector3 goalPosition;

@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc38003c0e0db6641a4762d4f392de52, type: 3}
+  m_Name: PrefabPalette-Default
+  m_EditorClassIdentifier: 
+  prefabs:
+  - gameObject: {fileID: 8469857222161279641, guid: a87b8990fc9fe684bb0c48823cfab9ee,
+      type: 3}
+    settings:
+      m_Strength: 56.10377
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 70, y: 70, z: 70}
+      m_ScaleRangeMax: {x: 100, y: 100, z: 100}
+      m_UniformScale: {x: 0.7, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: SeaWeed1
+  - gameObject: {fileID: 7234886077558316164, guid: 999e756cb823d124e8b1eff2f1bbb12f,
+      type: 3}
+    settings:
+      m_Strength: 55.16981
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 70, y: 70, z: 70}
+      m_ScaleRangeMax: {x: 100, y: 100, z: 100}
+      m_UniformScale: {x: 0.7, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: SeaWeed2
+  - gameObject: {fileID: 5976221127018693258, guid: d208f5e6d3611684cb3c0cc96b3887db,
+      type: 3}
+    settings:
+      m_Strength: 47.698112
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 180, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Shells
+  - gameObject: {fileID: 6422420149054677482, guid: 846c1c7add04de64cbd284be7df0c594,
+      type: 3}
+    settings:
+      m_Strength: 70.11321
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 180, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Shells1
+  - gameObject: {fileID: 8914615816504732630, guid: fa8de8172dafc5a4dbc8f491921fb1e2,
+      type: 3}
+    settings:
+      m_Strength: 46.76415
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 180, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Shells2
+  - gameObject: {fileID: 4902548829531678021, guid: 87e7bfa71d607054f810dc80e074f226,
+      type: 3}
+    settings:
+      m_Strength: 43.962265
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 180, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Shells3
+  - gameObject: {fileID: 2441656588601472110, guid: 8d1528359d891c345b10a478a4c52904,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: -90, y: 0, z: 0}
+      m_RotationRangeMax: {x: -90, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Coral
+  - gameObject: {fileID: 2295857690193454965, guid: ee1377bb6e02eda4c957227b106b6050,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: -90, y: 0, z: 0}
+      m_RotationRangeMax: {x: -90, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Coral1
+  - gameObject: {fileID: 7044783539382549726, guid: 349a52298cd883043bdc4010ad7fe29b,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: -90, y: 0, z: 0}
+      m_RotationRangeMax: {x: -90, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Coral2
+  - gameObject: {fileID: 4513012309598325468, guid: ad63a6ab868b00643bb6a4e05bde9217,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: -90, y: 0, z: 0}
+      m_RotationRangeMax: {x: -90, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Coral3
+  - gameObject: {fileID: 4993175063985889364, guid: b103258d7da2a0a458312dd4eccfefb7,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: -90, y: 0, z: 0}
+      m_RotationRangeMax: {x: -90, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Coral4
+  - gameObject: {fileID: 3664420015856480139, guid: f1987e46f3435424dac896e4e4ed24ed,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: -90, y: 0, z: 0}
+      m_RotationRangeMax: {x: -90, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Coral5
